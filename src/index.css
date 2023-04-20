@@ -1,13 +1,149 @@
-body {
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+  height: 100%;
+}
+
+.container {
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+p {
+  margin: 2rem;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content:space-between;
+  background-color: #4285f4;
+  color: #fff; 
+  padding: 1rem;
+}
+.app-header {
+  font-size: 2rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+.links {
+  margin-right: 1rem;
+  color: #fff;
+  text-decoration: none;
+}
+Footer {
+  margin-top: 20px;
+  position: sticky;
+  bottom: 0;
+  width: 100vw;
+  justify-content: center;
+  background-color: #4285f4; 
+  color: #fff; 
+  padding: 1rem;
+  font-size: larger;
+  font-weight: 600;
+  text-align: center;
+}
+
+.reuse-btn {
+  padding: 0.7rem;
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  background-color: magenta;
+  color: white;
+  outline: none;
+  border-radius: 5px;
+}
+
+.reuse-btn:hover {
+  background-color: white;
+  color: magenta;
+}
+
+.name {
+  color: purple;
+}
+
+.overlay {
+  position: fixed;
+  display: block;
+  overflow: auto;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+}
+.content {
+  margin: 15% auto;
+  background-color: white;
+  border-radius: 0.25rem;
+  width: 40vw;
+  padding: 2rem;
+  position: relative;
+}
+
+p {
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+
+.modal-btn {
+  border-radius: 40px;
+  padding: 1rem 2rem;
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.modal-btn:hover {
+  background-color: pink;
+}
+
+.close {
+  display: flex;
+  margin-left: auto;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+button {
+  height: 60px;
+  width: 200px;
+  font-size: 35px;
+  border-radius: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+button:hover {
+  background-color: #0062cc;
+}
+img {
+  margin: 20px;
 }
