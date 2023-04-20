@@ -47,6 +47,11 @@ header {
   margin-right: 1rem;
   color: #fff;
   text-decoration: none;
+  list-style-type: none;
+}
+.links li a{
+  text-decoration: none;
+  color: #fff;
 }
 Footer {
   margin-top: 20px;
@@ -78,9 +83,6 @@ Footer {
   color: magenta;
 }
 
-.name {
-  color: purple;
-}
 
 .overlay {
   position: fixed;
