@@ -5,7 +5,7 @@ function Footer (){
      //I made am extra button with link to the About page /added urkainian icon
          <footer>BE BRAVE LIKE UKRAINE!
        
-          <img src={ukraine} alt="Ukrainian flag" height={80} width={60} />
+          <img className="ukrLogo" src={ukraine} alt="Ukrainian flag" height={80} width={60} />
       
          </footer>
      

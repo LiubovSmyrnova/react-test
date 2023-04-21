@@ -65,7 +65,9 @@ Footer {
   font-size: larger;
   font-weight: 600;
   text-align: center;
+
 }
+
 
 .reuse-btn {
   padding: 0.7rem;
@@ -148,4 +150,15 @@ button:hover {
 }
 img {
   margin: 20px;
+}
+
+.link__list li {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.bamonlist {
+  flex-direction: row;
+  align-items: center;
 }
