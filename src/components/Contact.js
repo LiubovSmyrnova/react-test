@@ -1,9 +1,12 @@
 import React from 'react'; 
 import Footer from "./Footer"; 
+import Form from "./Form";
+//importing important things that I'm gonna use on this page
 function Contact (){  
+   
  return (
     <>
-    <p>Please fill up the form to get in touch with me</p>
+    <Form />
     <Footer />
     </>
        

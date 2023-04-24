@@ -82,5 +82,8 @@ const handleSubmit = (e) => {
     </div>
     )
 }
-
+//I was coding along with the video lesson, so it's pretty same but with 
+//deifferent classNames
+//exporting to the contact page
+//have extra ";" sign in the end, can't get rid of it
 export default ContactForm;
