@@ -1,10 +1,11 @@
 import {Link} from "react-router-dom";
-
+//https://reactrouter.com/en/main/components/link helped to understand Router v6
 const Header = () => {
     return(
+        //header is showing in all pages by importing on each of them from here
         <header className="header">
             <div>
-                <p>Header</p>
+                <p>Liubov</p>
             </div>
             <nav className="app-header">
                 <ul className="links">
